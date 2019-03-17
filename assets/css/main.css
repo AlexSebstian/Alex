@@ -11,12 +11,12 @@
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 20%;
-	font-size: 100%;
-	vertical-align: baseline;
-	font-family: "宋体";
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1590,7 +1590,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "宋体";
+		font-family: "Lato", Arial, Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -1739,7 +1739,7 @@
 	}
 
 	strong, b {
-		color: #555;
+	color: #FFFFFF;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1895,7 +1895,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #1c1c1c;
+		background-color: #000;
 		color: #fff !important;
 	}
 
@@ -1904,7 +1904,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1c1c1c;
+			background-color: #000;
 		}
 
 		input[type="submit"]:active,
@@ -1912,7 +1912,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #1c1c1c;
+			background-color: #000;
 		}
 
 		input[type="submit"].alt,
@@ -3699,20 +3699,21 @@
 				}
 
 		.post .image {
-			-ms-flex-order: 2;
-			-moz-order: 2;
-			-webkit-order: 2;
-			-ms-order: 2;
-			order: 2;
-			width: 50%;
-			display: block;
-			margin: 0;
-			position: relative;
-			overflow: hidden;
-			background-color: #ffffff;
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
+	-ms-flex-order: 2;
+	-moz-order: 2;
+	-webkit-order: 2;
+	-ms-order: 2;
+	order: 2;
+	width: 50%;
+	display: block;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../../images/class.jpg);
 		}
 
 			.post .image img {
@@ -3862,8 +3863,9 @@
 				}
 
 			.post.style1.invert {
-				background-color: #1abc9c;
-				color: rgba(255, 255, 255, 0.75);
+	background-color: #1abc9c;
+	color: rgba(255, 255, 255, 0.75);
+	background-image: url(../../images/luxinhu.png);
 			}
 
 				.post.style1.invert input, .post.style1.invert select, .post.style1.invert textarea {
@@ -3948,7 +3950,7 @@
 					}
 
 				.post.style1.invert .content {
-					background: #1abc9c;
+	background: #1abc9c;
 				}
 
 					.post.style1.invert .content header p {
@@ -4516,7 +4518,7 @@
 
 		}
 
-
+/* Footer */
 
 	#footer {
 		padding: 4em 0 2em 0;
