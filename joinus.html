@@ -14,7 +14,7 @@
 	<strong>实验中学网页社</strong>
 		<a href="joinus.html">
    	 		<button>加入我们</button>
-  		</a>
+  </a>
 		<a href="notes.html">
    	 		<button>代码手册</button>
 		</a>
@@ -28,10 +28,79 @@
 
 
 <section id="main">
-	<div class="inner">
+  <div class="inner">
 	  <h3>加入我们</h3>
-		<p>加入我们，请在每周三社团活动课前往四楼“网页设计社”机房报名登记,或于每周信息与技术课在任课老师处报名</p>
-    </div>
+	  <p>加入我们，请在每周三社团活动课前往四楼“网页设计社”机房报名登记,或于每周信息与技术课在任课老师处报名</p>
+    <p>并请填写以下登记表：</p>
+  <form action="/通州区实验中学网页设计社官网/forms/join.html" name="登记表" id="登记表">
+    <p>登记表 :    </p>
+    <p>
+      <label>姓名
+      <input type="text" name="textfield">
+      </label>
+    </p>
+    <p>性别：男：
+	  <input name="男" type="radio" value="" checked>
+	  女：
+	  <input name="女" type="radio" value="">
+	  </p>
+	<p>特长：
+	  <label>
+	  <input type="checkbox" name="checkbox" value="checkbox">
+	  HTML</label>
+	  <label>
+	  <input type="checkbox" name="checkbox2" value="checkbox">
+	  PHP</label>
+	  <label>
+	  <input type="checkbox" name="checkbox3" value="checkbox">
+	  DIV+CSS</label>
+	  <label>
+	  <input type="checkbox" name="checkbox4" value="checkbox">
+	  JavaScript</label>
+	</p>
+	<p>
+	  <label>年级
+	  <select name="select">
+	    <option>初一</option>
+	    <option>初二</option>
+	    <option>初三</option>
+	    </select>
+	  </label>
+	  <label>班级
+	    <select name="select2">
+	      <option>1班</option>
+	      <option>2班</option>
+	      <option>3班</option>
+	      <option>4班</option>
+	      <option>5班</option>
+	      <option>6班</option>
+	      <option>7班</option>
+	      <option>8班</option>
+	      <option>9班</option>
+	      <option>10班</option>
+	      <option>11班</option>
+	      <option>12班</option>
+	      <option>13班</option>
+	      <option>14班</option>
+        </select>
+	    </label>
+	</p>
+	<p>
+	  <label>对本站的建议
+	  <textarea name="textarea"></textarea>
+	  </label>
+</p>
+	<p>
+	  <label>
+	  <input type="submit" name="Submit" value="提交">
+	  </label>
+	  <label>
+	  <input type="reset" name="Submit2" value="重置">
+	  </label>
+	</p>
+  </form>
+  </div>
+  
 </section>
 
 
